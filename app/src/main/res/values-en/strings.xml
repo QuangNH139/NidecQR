@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NidecQR</string>
+    
+    <!-- Main Activity -->
+    <string name="tab_all">All</string>
+    <string name="tab_present">Present</string>
+    <string name="tab_absent">Absent</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="search_hint">Search by name, code, department...</string>
+    
+    <!-- Menu -->
+    <string name="action_search">Search</string>
+    <string name="action_employees">Employee Management</string>
+    <string name="action_report">Report</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Attendance Detail -->
+    <string name="attendance_detail">Attendance Detail</string>
+    <string name="employee_info">Employee Information</string>
+    <string name="employee_code">Employee Code:</string>
+    <string name="full_name">Full Name:</string>
+    <string name="department">Department:</string>
+    <string name="attendance_status">Attendance Confirmation</string>
+    <string name="status_present">Present</string>
+    <string name="status_absent">Absent</string>
+    <string name="food_preference">What meal would you like to register?</string>
+    <string name="notes">Notes</string>
+    <string name="hint_notes">Enter notes (optional)...</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Employee Management -->
+    <string name="employee_management">Employee Management</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="edit_employee">Edit Employee</string>
+    <string name="delete_employee">Delete Employee</string>
+    <string name="confirm_delete_employee">Are you sure you want to delete employee %1$s?</string>
+    <string name="delete">Delete</string>
+    <string name="hint_employee_code">Employee Code (5 digits)</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_department">Department</string>
+    
+    <!-- Report -->
+    <string name="report">Report</string>
+    <string name="filter">Filter</string>
+    <string name="period">Period:</string>
+    <string name="statistics">Statistics</string>
+    <string name="total_attendance">Total Records:</string>
+    <string name="present_count">Present Count:</string>
+    <string name="absent_count">Absent Count:</string>
+    <string name="export_excel">Export to Excel</string>
+    <string name="detail_list">Detail List</string>
+    
+    <!-- Messages -->
+    <string name="no_data">No data available</string>
+    <string name="no_employees">No employees yet</string>
+    <string name="success_saved">Saved successfully!</string>
+    <string name="success_employee_added">Employee added successfully!</string>
+    <string name="success_employee_updated">Employee updated successfully!</string>
+    <string name="success_employee_deleted">Employee deleted successfully!</string>
+    <string name="success_exported">File exported successfully: %1$s</string>
+    
+    <!-- Errors -->
+    <string name="error_invalid_qr">Invalid QR code! Please scan a 5-digit employee code.</string>
+    <string name="error_employee_not_found">Employee not found with this code!</string>
+    <string name="error_no_data">No data available!</string>
+    <string name="error_no_employee">No employee information!</string>
+    <string name="error_select_status">Please select attendance status!</string>
+    <string name="error_save_failed">Save failed! Please try again.</string>
+    <string name="error_fill_all_fields">Please fill in all fields!</string>
+    <string name="error_invalid_employee_code">Employee code must be 5 digits!</string>
+    <string name="error_employee_exists">Employee code already exists!</string>
+    <string name="error_update_failed">Update failed!</string>
+    <string name="error_delete_failed">Delete failed!</string>
+    <string name="error_export_failed">Export failed</string>
+</resources>
