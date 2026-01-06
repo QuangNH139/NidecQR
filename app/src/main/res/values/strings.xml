@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NidecQR</string>
+    
+    <!-- Main Activity -->
+    <string name="tab_all">Tất cả</string>
+    <string name="tab_present">Có tham gia</string>
+    <string name="tab_absent">Không tham gia</string>
+    <string name="scan_qr_code">Quét QR Code</string>
+    <string name="search_hint">Tìm kiếm theo tên, mã, bộ phận...</string>
+    
+    <!-- Menu -->
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_employees">Quản lý nhân viên</string>
+    <string name="action_report">Báo cáo</string>
+    <string name="action_refresh">Làm mới</string>
+    <string name="action_settings">Cài đặt</string>
+    
+    <!-- Attendance Detail -->
+    <string name="attendance_detail">Chi tiết điểm danh</string>
+    <string name="employee_info">Thông tin nhân viên</string>
+    <string name="employee_code">Mã nhân viên:</string>
+    <string name="full_name">Họ và Tên:</string>
+    <string name="department">Bộ phận:</string>
+    <string name="attendance_status">Xác nhận tham gia</string>
+    <string name="status_present">Có tham gia</string>
+    <string name="status_absent">Không tham gia</string>
+    <string name="food_preference">Bạn muốn đăng ký Phần ăn gì?</string>
+    <string name="notes">Ghi chú</string>
+    <string name="hint_notes">Nhập ghi chú (nếu có)...</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    
+    <!-- Employee Management -->
+    <string name="employee_management">Quản lý nhân viên</string>
+    <string name="add_employee">Thêm nhân viên</string>
+    <string name="edit_employee">Sửa nhân viên</string>
+    <string name="delete_employee">Xóa nhân viên</string>
+    <string name="confirm_delete_employee">Bạn có chắc muốn xóa nhân viên %1$s?</string>
+    <string name="delete">Xóa</string>
+    <string name="hint_employee_code">Mã nhân viên (5 số)</string>
+    <string name="hint_full_name">Họ và tên</string>
+    <string name="hint_department">Bộ phận</string>
+    
+    <!-- Report -->
+    <string name="report">Báo cáo</string>
+    <string name="filter">Bộ lọc</string>
+    <string name="period">Khoảng thời gian:</string>
+    <string name="statistics">Thống kê</string>
+    <string name="total_attendance">Tổng số lượt:</string>
+    <string name="present_count">Số người tham gia:</string>
+    <string name="absent_count">Số người không tham gia:</string>
+    <string name="export_excel">Xuất Excel</string>
+    <string name="detail_list">Chi tiết danh sách</string>
+    
+    <!-- Messages -->
+    <string name="no_data">Chưa có dữ liệu</string>
+    <string name="no_employees">Chưa có nhân viên nào</string>
+    <string name="success_saved">Đã lưu thành công!</string>
+    <string name="success_employee_added">Đã thêm nhân viên thành công!</string>
+    <string name="success_employee_updated">Đã cập nhật nhân viên thành công!</string>
+    <string name="success_employee_deleted">Đã xóa nhân viên thành công!</string>
+    <string name="success_exported">Đã xuất file thành công: %1$s</string>
+    
+    <!-- Errors -->
+    <string name="error_invalid_qr">Mã QR không hợp lệ! Vui lòng quét mã nhân viên 5 số.</string>
+    <string name="error_employee_not_found">Không tìm thấy nhân viên với mã này!</string>
+    <string name="error_no_data">Không có dữ liệu!</string>
+    <string name="error_no_employee">Không có thông tin nhân viên!</string>
+    <string name="error_select_status">Vui lòng chọn trạng thái tham gia!</string>
+    <string name="error_save_failed">Lưu thất bại! Vui lòng thử lại.</string>
+    <string name="error_fill_all_fields">Vui lòng điền đầy đủ thông tin!</string>
+    <string name="error_invalid_employee_code">Mã nhân viên phải là 5 số!</string>
+    <string name="error_employee_exists">Mã nhân viên đã tồn tại!</string>
+    <string name="error_update_failed">Cập nhật thất bại!</string>
+    <string name="error_delete_failed">Xóa thất bại!</string>
+    <string name="error_export_failed">Xuất file thất bại</string>
+</resources>
